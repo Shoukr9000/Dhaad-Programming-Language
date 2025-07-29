@@ -1,4 +1,4 @@
-# ‡⚡‡ Dad Programming Language ‡⚡‡
+# ‡⚡‡ Dhaad Programming Language ‡⚡‡
 
 **"Where syntax becomes reality and computation transcends dimensions"**
 
