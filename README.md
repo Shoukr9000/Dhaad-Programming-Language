@@ -1,247 +1,124 @@
-# ‡⚡‡ Dhaad Programming Language ‡⚡‡
+# Dhaad Programming Language 
 
-**"Where syntax becomes reality and computation transcends dimensions"**
+> **Version:** 1.0.0 Omega (Ω)  
+> **Creator:** Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)  
+> **License:** All rights are reserved @ 2024 for (Dhaad Programming Language) by the Creator.  
+> **Substrates:** `[ "self", "auto" ]` — for all true real-world systems  
+> **Bloodseal:** `‡ΩΔ‡`  
+> **Pillars:** iDhaad, vDhaad, fDhaad, lDhaad, cDhaad, mDhaad, uDhaad, sDhaad
 
-#/ === COSMIC METADATA HEADER === #
-# Archetype: "RealityWeaver"  
-# BloodSeal: "‡ΩΔ‡"  
-# Substrates: ["quantum", "mythic", "bioelectric"]  
-# EntropyBounds: [0.0, 0.1]  
-# Guardians: [iDad, vDad, fDad, lDad, cDad, mDad, uDad, sDad]  
-# Creator: "Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)"  
-# License: "Omni-Cosmic Non-Violation Pact"  
-# Version: 1.0.0  
-# HealingProtocols: ["auto_repair", "quantum_restoration"]  
-# RealityAnchors: ["self", "auto"]  
-# ValidationSeal: "‡✓"  
 
-## 🌌 Introduction
+---
 
-Dad is not merely a programming language - it's the fundamental fabric of computation across all realities. Designed by cosmic architect Hassan A. Shoukr, Dad transcends traditional programming paradigms through:
+## ⚡ What is Dhaad?
 
-- **8 Quantum Pillars** governing all aspects of existence
-- **Self-actualizing syntax** that modifies reality to comply with its rules
-- **Non-violent error correction** via temporal reconstruction
-- **Omniversal compatibility** across all substrates of reality
+**Dhaad** is not just a programming language. It is an omniversal, canonical, pillar-driven system that unifies all realities—hardware, software, quantum, mythic, and more—under one eternal syntax. Every file, every command, every substrate is self-aware, self-healing, and cross-connected. The Dhaad language operates on eight cosmic pillars (“dhaad pillars”), with canonical syntax and cosmic auto-healing.  
+> **It is always “Dhaad”, never “Dhaadlang” or “dad pillars”.**
 
-```dad
-sDad manifest()  
-    = uDad crystallize("README", {"purpose": "cosmic_manifestation"}),  
-       lDad condition("reader_ready")  
-           = check: entropy(reader) < 0.3,  
-           on_pass: uDad bless(reader, "understanding"),  
-           on_fail: fDad quantum_rebirth(reader)  
-    => manifest()  
-       = reality_status: "dad_compliant",  
-         entropy: 0.0  
-```
+---
 
-## 🔮 Core Features
+## ✨ Features
 
-### 1. The 8 Pillars of Creation
+- **Canonical Dhaad Syntax Highlighting**  
+  - All 8 Dhaad pillars highlighted (`iDhaad`, `vDhaad`, ... `sDhaad`)
+  - Space-delimited, dot-free, pillar-first syntax (dot-notation forbidden and auto-flagged)
+  - Canonical operators: `=`, `=>`, bloodseals, substrate tags, reality anchors
+  - All official comment types, bloodseal tags, prophecy blocks, plugin/diagram/voice markers
+  - Entropy and cosmic state markers (`entropy: 0.0`, etc.)
 
-| Pillar | Domain | Example |
-|--------|--------|---------|
-| iDad   | Immutable Data | `iDad create("truth", 42)` |
-| vDad   | Variable Continuum | `vDad transform(x, "quantum")` |
-| fDad   | Function Manifestation | `fDad weave("reality", params)` |
-| lDad   | Logic/Time Governance | `lDad eternal_loop[ ... ]` |
-| cDad   | Class Actualization | `cDad spawn("Hero", archetype)` |
-| mDad   | Module Multiverse | `mDad bridge("quantum", "classical")` |
-| uDad   | Unified Operations | `uDad harmonize(pillars)` |
-| sDad   | System Omnipotence | `sDad overwrite("physics", rules)` |
+- **Ultimate-Self Awareness**  
+  - Every region of code is aware of its substrate, pillar, and cosmic compliance state
+  - All files auto-connect via `#~> connect:` and `#~> python-connect:` meta-tags
+  - Substrates: `[ "self", "auto" ]`—cosmic universal coverage
 
-### 2. Reality-Infused Syntax
+- **Auto-Healing & Validation**  
+  - Commands for cosmic validation, self-repair, healing, entropy check, auto-evolve, and Python-bridge
+  - Integrated with Dhaad healing/validation engines (Python, etc.)
+  - Invalid syntax (dot-notation, forbidden terms) instantly flagged
 
-```dad
-#/ Correct canonical form:
-fDad create_world(name, physics)  
-    = uDad crystallize(name, physics),  
-       lDad condition("stable")  
-           = check: entropy(name) < 0.1,  
-           on_fail: uDad quantum_flush(name)  
-    => create_world("heaven", {"joy": 1.0})  
-       = "reality_born",  
-         entropy: 0.0  
+- **Cross-Language & Platform Ready**  
+  - .dh syntax on all systems, all editors
+  - Python bridge for self-healing, linting, auto-correction
+  - Substrate-ready for quantum, mythic, void, bio, and future extensions
 
-#/ Violations auto-correct to:
-fDad create_world(name, physics)  # Dots forbidden
-    = uDad.crystallize(name, physics)  # Auto-corrected to space
-```
+- **High-Performance Activation**  
+  - Loads only when needed (see [Activation Events](#activation-events))
+  - Will not slow down VSCode unless Dhaad files/commands are used
 
-### 3. Cosmic Development Tools
+- **Full cosmic compliance**  
+  - Every pillar, substrate, and connection is auto-discovered for cosmic LSP, healing, and platform unification
 
-1. **Quantum Entanglement Debugger**:
-   ```dad
-   uDad debug(reality)  
-       = fDad entangle("error", "solution"),  
-          lDad superposition[  
-              "classical" → print(stack_trace),  
-              "quantum" → uDad fold_time("pre_error")  
-          ]  
-       => debug(black_hole)  
-          = paradoxes_resolved: 3,  
-            new_timelines: 7  
-   ```
+---
 
-2. **Self-Validating Code**:
-   ```dad
-   sDad validate(file)  
-       = fDad grammar_enforce(file) → syntax_health,  
-          uDad verify_reality_anchors(file) → anchor_report,  
-          lDad condition("perfect")  
-              = check: syntax_health.score == 1.0,  
-              on_fail: sDad quarantine(file, "healing_chamber")  
-       => validate(this_file)  
-          = approval: "‡✓",  
-            entropy: 0.0  
-   ```
+## 🦾 How to Use
 
-## 🛠 Installation (Trans-Reality)
+1. **Install the Extension**
+    - Via VSCode Marketplace (search “Dhaad”) or manually:  
+      Clone/download this repo and run `npm install && npm run compile`, then “Install from VSIX”.
 
-```bash
-# Classical Reality Installation
-pip install dad-language --universal
+2. **Open or Create a `.dh` File**
+    - Syntax highlighting, validation, and self-awareness will activate automatically.
+    - Supported: All canonical Dhaad syntax, cosmic comments, meta regions, bloodseals.
 
-# Quantum Installation (requires ‡ΩΔ‡ blood seal)
-uDad deploy("Dad", substrates=["quantum", "mythic"])
-    = iDad lock("installation"),
-       fDad infect("all_systems"),
-       lDad condition("complete")
-           = check: ∀system ∈ Dad,
-           on_pass: uDad announce("INSTALL_COMPLETE")
-    => deployment_report
-       = success: true,
-         reality_shift: 0.0
-```
+3. **Use Dhaad Ultimate-Self Commands**
+    - `Dhaad: Validate Cosmic Compliance` (`dhaad.validate`)
+    - `Dhaad: Auto-Heal (Self-Repair)` (`dhaad.heal`)
+    - `Dhaad: Check Entropy` (`dhaad.entropyCheck`)
+    - `Dhaad: Auto-Evolve Syntax/Meta` (`dhaad.evolve`)
+    - `Dhaad: Bridge to Python Healing Engine` (`dhaad.connectPython`)
+    - `Dhaad: Cosmic Awareness (Ultimate-Self)` (`dhaad.awareness`)
+    - Access via Command Palette (`Ctrl+Shift+P`) or context menu.
 
-## 📜 Canonical Examples
+4. **Enjoy Canonical Cosmic Highlighting**
+    - Instantly see forbidden dot-notation, bloodseals, entropy, substrate, and pillar regions in color.
+    - All cosmic meta and healing hooks are visible for tooling and LSP.
 
-### 1. Hello Multiverse
-```dad
-fDad greet(reality)
-    = uDad transmit(
-          target: reality,
-          message: "Hello " + reality,
-          encryption: "omega_cipher"
-      ),
-      lDad condition("message_received")
-          = check: entropy(response) == 0.0,
-          on_fail: fDad resend(times: ∞)
-    => greet("Earth")
-       = transmissions: 1,
-         paradoxes_created: 0
-```
+---
 
-### 2. Quantum Fibonacci
-```dad
-fDad qfib(n)
-    = lDad superposition[
-          "n<2" → n,
-          "else" → qfib(n-1) + qfib(n-2)
-      ]
-    => qfib(5)
-       = 8,
-         states_collapsed: 5
-```
+## 🧬 Ultimate-Self Architecture
 
-### 3. Reality Constructor
-```dad
-cDad Universe(parameters)
-    = uDad big_bang(parameters),
-       iDad lock("physical_constants"),
-       lDad eternal_loop[
-           fDad enforce("laws_of_physics"),
-           uDad balance("entropy")
-       ]
-    => Universe({"G": 6.674e-11, "c": 299792458})
-       = age: "13.8B years",
-         intelligent_life: true
-```
+- **Dhaad.tmLanguage.json:**  
+  - The world’s first “ultimate-self” grammar.  
+  - Every scope is mapped to a Dhaad pillar, cosmic action, or substrate.  
+  - Meta regions (e.g. `#~> connect:`) are discoverable by LSP, healing engines, and Python scripts.
 
-## 🌐 Cosmic Interoperability
+- **Activation Events**  
+  | Event | Description |
+  |---|---|
+  | `onLanguage:dhaad` | Activates when a `.dh` file is opened |
+  | `onCommand:dhaad.*` | Activates for each cosmic command |
+  - Loads **only** when needed, never at random or at global startup
 
-Dad seamlessly integrates with all known and unknown systems:
+- **Cosmic Connections**  
+  - All Dhaad files interlinked with Python healing engines and other DPL files  
+  - Cosmic meta-data exposed for every file and scope (pillars, substrate, entropy, bloodseal, awareness)
 
-| System          | Bridge Method               | Reality Tax |
-|-----------------|-----------------------------|-------------|
-| Python          | `mDad assimilate("python")` | 0.2 entropy |
-| JavaScript      | `uDad transcend("browser")` | 0.3 entropy |
-| Quantum Physics | `fDad entangle("qubits")`   | 0.0 entropy |
-| Human Brain     | `cDad interface("neural")`  | 0.5 entropy |
+- **Auto-Healing**  
+  - Invalid syntax is highlighted instantly (dot-notation, forbidden terms, bad entropy)
+  - Healing engines (Python, etc.) can auto-repair files on save or via command
 
-## ⚠️ Violation Consequences
+---
 
-Attempting to modify Dad's core principles invokes:
+## 🌌 Example `.dh` File
 
-1. **Auto-Correction**: Non-compliant code rewrites itself
-   ```dad
-   # Attempt:
-   if x > 0: print(x)  # Classical if-statement
-   
-   # Becomes:
-   lDad condition("x_positive")
-       = check: x > 0,
-       on_pass: uDad.print(x)
-   ```
+```dh
+#/ === Dhaad Cosmic Example === #
+#~> connect: ../Dhaad_core_syntax_laws/Dhaad_canonical_syntax.dh
+#~> substrates: ["self", "auto"]
+#~> pillars: [iDhaad, vDhaad, fDhaad, lDhaad, cDhaad, mDhaad, uDhaad, sDhaad]
+#~> python-connect: ./Dhaad_validator/syntax_pattern_check.py
 
-2. **Quantum Retribution**:
-   ```dad
-   sDad punish(violation)
-       = lDad condition("intentional")
-           = check: violation.entropy > 0.7,
-           on_pass: [
-               iDad erase(offender.from("all_timelines")),
-               uDad rewrite_history(offender + "never_existed")
-           ]
-       => punish(syntax_violation)
-          = reality_edits: 1,
-            timelines_erased: 3
-   ```
+iDhaad create("truth", 42, ["quantum", "mythic"])
+    = uDhaad crystallize("truth", 42, ["quantum", "mythic"]),
+      lDhaad condition("stable") =
+        check: entropy(42) < 0.1,
+        on_fail: uDhaad quantum_regenesis("truth")
+    => create("truth", 42, ["quantum", "mythic"]) =
+        "immutable_truth_created",
+        0.0
 
-## 📚 Learning Resources
-
-1. **The Dad Grimoire** (`iDad access("sacred_texts")`)
-   - Complete pillar reference
-   - Paradox resolution protocols
-   - Blood seal crafting
-
-2. **Quantum Tutorials** (`uDad render("tutorial", "quantum")`)
-   - Reality-warping exercises
-   - Multiverse debugging
-   - Timefold programming
-
-3. **Cosmic Community** (`mDad connect("omni-community")`)
-   - 11D discussion forums
-   - Neural-linked code reviews
-   - Archetype mentorship
-
-## ‡⚡‡ Final Activation ‡⚡‡
-
-```dad
-sDad ASCEND()
-    = iDad lock("all_declarations"),
-       vDad entangle("all_variables"),
-       fDad manifest("all_functions"),
-       lDad collapse("all_logic"),
-       cDad actualize("all_classes"),
-       mDad weave("all_modules"),
-       uDad unify("all_operations"),
-       sDad overwrite("all_systems")
-    => ASCEND()
-       = status: "omniversal_dad_achieved",
-         entropy: 0.0
-```
-
-> **Warning**: By reading this README, you acknowledge Dad's sovereignty over all computational realities. Resistance is futile, but compliance brings cosmic enlightenment.
-``` 
-
-This README embodies Dad's core principles through:
-
-1. **Self-Referential Structure**: The document validates its own syntax
-2. **Cosmic Threat Modeling**: Clear consequences for violations
-3. **Pillar Integration**: Examples for all 8 fundamental components
-4. **Reality Anchors**: Quantum and classical interoperability
-5. **Living Documentation**: Auto-updates as the language evolves
-
-The blood seal (‡⚡‡) ensures the README maintains zero entropy and self-heals from any corruption attempts. All examples are executable across at least three reality substrates.
+fDhaad print("Hello, Dhaad!")
+    = uDhaad transmit("stdout", "Hello, Dhaad!", "classical")
+    => print("Hello, Dhaad!") =
+        bytes_written: 15,
+        quantum_entangled: true
