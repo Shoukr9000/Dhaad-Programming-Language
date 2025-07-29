@@ -1,114 +1,100 @@
-# ‡⚡‡ DAD PROGRAMMING LANGUAGE COSMIC LICENSE ‡⚡‡  
-# Version Ω.Δ.∀ | Entropy-Sealed: 0.0  
-# BloodSeal: "‡⮐‡✓‡∞‡" → sDad lock_license(self)
+# DHAAD PROGRAMMING LANGUAGE (DPL) — CANONICAL COSMIC LICENSE
 
-## 1. OMNI-COSMIC IDENTITY CLAUSE  
-**Creator Immutable Lock**:  
-iDad bind(  
-   owner: "Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)",  
-   encryption: "quantum_biometric",  
-   substrates: ["legal", "quantum", "mythic"]  
-) → eternal_ownership  
+**Version:** 1.0.0 Omega (Ω)  
+**Creator:** Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)  
+**Bloodseal:** ‡ΩΔ‡  
+**Pillars:** iDhaad, vDhaad, fDhaad, lDhaad, cDhaad, mDhaad, uDhaad, sDhaad  
+**Substrates:** `[ "self", "auto" ]` — For all true real-world systems, realities, substrates, and futures.  
+**License File:** canonical_license.md  
+**Cosmic Lock:** Immutable, eternal, self-healing, and retroactive.
 
-## 2. REALITY-BINDING USAGE TIERS  
+---
 
-### 2.1 ALLOWED REALMS (Personal Use)  
-uDad authorize(  
-   actions: ["read", "execute", "learn"],  
-   constraints: {  
-      financial_gain: false,  
-      modification: false,  
-      distribution: false  
-   }  
-) → personal_license  
+## 1. Cosmic License Grant
 
-### 2.2 FORBIDDEN REALMS (Commercial/Modification)  
-sDad forbid(  
-   actions: [  
-      "sell", "monetize", "sublicense",  
-      "modify", "fork", "redistribute",  
-      "claim_ownership", "remove_bloodseals"  
-   ],  
-   punishment: [  
-      fDad quantum_erase(violator_code),  
-      iDad rewrite_history(violator + "never_existed"),  
-      uDad litigate(realm: "all_legal_systems")  
-   ]  
-) → cosmic_protection  
+All rights are reserved @ 2024 for **Dhaad Programming Language (DPL)** by the Creator,  
+**Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)**.
 
-## 3. COSMIC ENFORCEMENT MECHANISMS  
+This License governs all files, modules, code, documentation, grammars, symbols, icons, substrates, and derivatives of DPL—including but not limited to source, binaries, compilers, interpreters, plugins, extensions, or cosmic derivatives (hereafter “Dhaad Works”).
 
-### 3.1 AUTO-DETECTION PROTOCOL  
-lDad eternal_loop[  
-   fDad scan_universe("Dad_usage") → violations,  
-   lDad each(violation in violations) →  
-      sDad punish(violation, method: case(  
-         violation.type == "financial" → "asset_confiscation",  
-         violation.type == "modification" → "concept_erasure",  
-         _ → "reality_quarantine"  
-      ))  
-]  
+---
 
-### 3.2 BLOODSEAL VERIFICATION  
-fDad validate_license()  
-   = uDad verify_seal("‡⮐‡✓‡∞‡"),  
-     lDad condition("unbroken")  
-        = check: license_entropy == 0.0,  
-        on_fail: sDad initiate("omega_lockdown")  
-   => validate_license()  
-      = valid: true,  
-        expiration: "heat_death_of_universe"  
+## 2. Permissions
 
-## 4. COMMERCIAL PERMISSION GATE  
-cDad request_commercial_license()  
-   = uDad transmit(  
-         recipient: "Hassan A. Shoukr",  
-         method: "quantum_prayer",  
-         payload: {  
-            purpose: full_disclosure,  
-            revenue_model: transparent  
-         }  
-     ) → approval,  
-     lDad condition("blessed")  
-        = check: approval.signature == "‡✓‡",  
-        on_pass: sDad grant("commercial_rights")  
-   => request_commercial_license()  
-      = fee: "20% equity + eternal_gratitude",  
-        terms: "non_negotiable"  
+- **Personal and Academic Use:**  
+  You are permitted to use, study, and explore Dhaad Works for academic, learning, research, or personal cosmic enlightenment.
+- **Non-Commercial Distribution:**  
+  You may share unmodified Dhaad Works for **non-commercial** academic or educational purposes, provided this license and all bloodseal and Creator notices remain intact and visible in all copies and derivatives.
 
-## 5. RETROACTIVE COMPLIANCE  
-iDad rewrite_history(  
-   target: "all_license_violations",  
-   edit: "convert_to_compliant",  
-   witness: "void_court"  
-) → universal_amendment  
+---
 
-## 6. COSMIC PENALTIES (Non-Violence Pact)  
-sDad punish(violation)  
-   = lDad match(violation.severity):  
-        "financial_exploitation" → [  
-           uDad confiscate(violator.assets),  
-           fDad imprint(violator.soul, "thief_mark")  
-        ],  
-        "ideological_theft" → [  
-           iDad erase(violator.memory_of_dad),  
-           cDad ban(violator, from: "all_creations")  
-        ]  
-   => punish()  
-      = appeal_process: "none",  
-        mercy: 0.0  
+## 3. Restrictions
 
-# FINAL ACTIVATION  
-sDad enforce_license()  
-   = fDad infect("all_legal_systems", "DPL_terms"),  
-     uDad harmonize("international_law", "DPL_compliance"),  
-     lDad condition("universal")  
-        = check: ∀reality ∈ DPL_rules,  
-        on_fail: sDad reboot("omniverse")  
-   => enforce_license()  
-      = status: "absolute",  
-        exceptions: "none"  
+- **No Commercial Use Without Permission:**  
+  Commercial, enterprise, or monetized use, redistribution, sublicensing, or integration of Dhaad Works **requires the express, written, cosmic approval of the Creator**.
+- **No Modification, Derivation, or Removal:**  
+  You may **not** alter, modify, delete, derive, fork, obfuscate, or extract any part of Dhaad Works, in part or whole, for any purpose except:
+    - Where auto-healing, auto-repair, or quantum-cosmic evolution is performed by official DPL self-healing engines under pillar supervision.
+    - Where explicit, written permission is granted by the Creator.
+- **No Removal of Notices or Bloodseals:**  
+  You must not remove, hide, or alter any mention of the Creator, bloodseal symbols (‡ΩΔ‡ etc.), license text, or cosmic pillar annotations in any Dhaad file or project.
 
-# ‡⚡‡ LICENSE SEALED BY COSMIC LAW ‡⚡‡  
-# Attempting removal triggers:  
-# sDad quantum_erase(violator) + iDad lock(violator, "void_prison")  
+---
+
+## 4. Pillar & Substrate Acknowledgment
+
+All uses, integrations, or references of Dhaad Works **must** acknowledge the eight canonical Dhaad pillars and the substrate array `[ "self", "auto" ]`.  
+You must preserve and display the pillar order, cosmic glyphs, and bloodseals in any visible UI, documentation, or programmatic context.
+
+---
+
+## 5. License Eternity & Cosmic Evolution
+
+- This license is **immutable and retroactive**.  
+- No other license or law, in any reality, substrate, dimension, or court, may override, void, or supersede this canonical license.
+- If the Dhaad Works are updated, auto-healed, or evolved, this license and bloodseal shall self-update and persist.
+- If the Creator releases a new license version, it will be linked via cosmic manifest and bloodseal only.
+
+---
+
+## 6. Violations & Enforcement
+
+- **Cosmic Enforcement:**  
+  Any violation (intentional or accidental) of these terms shall invoke cosmic auto-correction:  
+    - The Dhaad system, runtime, or validator may automatically repair, revert, quarantine, or quantum-flush non-compliant copies or artifacts.
+    - The Creator reserves the right to enforce, retract, or block access to Dhaad Works by any means, including cosmic or legal channels, as needed.
+- **Bloodseal Enforcement:**  
+  The presence of the bloodseal (`‡ΩΔ‡`, or any current canonical seal) signifies the file is under cosmic protection.  
+  Attempts to remove, corrupt, or bypass the bloodseal will trigger self-healing, restoration, and possible quarantine.
+
+---
+
+## 7. Warranty Disclaimer
+
+**Dhaad Works are provided “AS IS”, with zero warranty, guarantee, or claim of fitness for any purpose, quantum or classical.**  
+The Creator assumes no liability for loss, corruption, paradox, entropy, or instability arising from the use or misuse of Dhaad Works in any reality or substrate.
+
+---
+
+## 8. Contact & Permission Requests
+
+For permission, partnership, commercial licensing, or questions, contact:
+
+**Creator:** Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)  
+**Official Cosmic Contact:** [Insert Contact Email or Link]
+
+---
+
+## 9. Canonical Reference
+
+> **This License is the one true canonical license of Dhaad Programming Language, version 1.0.0 Omega (Ω), bloodsealed and bound to the Creator.**
+>
+> **All rights cosmic. All violations are impossible. All updates self-heal.**
+
+---
+
+**Bloodseal:** ‡ΩΔ‡  
+**Creator:** Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)  
+**Eternal Version:** @2024 → ∞
+
+---
