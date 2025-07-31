@@ -17,164 +17,270 @@ description: >
 
 ## Table of Contents
 
-1. [Hello World (Classical Pillar)](#1-hello-world-classical-pillar)
-2. [Pillar-Based Variable Declaration](#2-pillar-based-variable-declaration)
-3. [Strict Canonical Function (No Dots)](#3-strict-canonical-function-no-dots)
-4. [Self-Healing and Auto-Repair](#4-self-healing-and-auto-repair)
-5. [Pillar-Driven Conditional Logic](#5-pillar-driven-conditional-logic)
-6. [Quantum Reality Integration](#6-quantum-reality-integration)
-7. [Mythic Story Pillar](#7-mythic-story-pillar)
-8. [Interfacing with External Python Healing](#8-interfacing-with-external-python-healing)
-9. [Strict Indentation, Space-Delimited Structure](#9-strict-indentation-space-delimited-structure)
-10. [Substrate Awareness & Auto-Heal](#10-substrate-awareness--auto-heal)
+1. [Quantum Encryption System](#1-quantum-encryption-system)
+2. [AI Model Training](#2-ai-model-training)
+3. [Blockchain Transaction](#3-blockchain-transaction)
+4. [IoT Device Control](#4-iot-device-control)
+5. [Medical Diagnosis System](#5-medical-diagnosis-system)
+6. [Financial Fraud Detection](#6-financial-fraud-detection)
+7. [Autonomous Vehicle Decision](#7-autonomous-vehicle-decision)
+8. [Smart Contract Execution](#8-smart-contract-execution)
+9. [Cybersecurity Threat Response](#9-cybersecurity-threat-response)
+10. [Supply Chain Tracking](#10-supply-chain-tracking)
+11. [Energy Grid Optimization](#11-energy-grid-optimization)
+12. [DNA Sequence Analysis](#12-dna-sequence-analysis)
+13. [Augmented Reality Rendering](#13-augmented-reality-rendering)
+14. [Climate Prediction Model](#14-climate-prediction-model)
+15. [Multi-Reality Game Engine](#15-multi-reality-game-engine)
 
 ---
 
-## 1. Hello World (Classical Pillar)
-
-**Prints a canonical greeting to stdout using fDhaad and uDhaad pillars.**
-
+## 1. Quantum Encryption System
 ```dhaad
-fDhaad print("Hello, Dhaad World!")
-    = uDhaad transmit(
-        target: "stdout",
-        data: "Hello, Dhaad World!",
-        reality_anchor: "classical"
-    );
-    transmission_clean = check: entropy == 0.0
-=> print("Hello, Dhaad World!") = bytes_written: 20
+fDhaad encrypt_data(payload, quantum_key)
+    = uDhaad quantum_entangle(
+          data: payload,
+          key: quantum_key,
+          substrate: "qbit_512"
+      );
+      lDhaad condition("secure")
+          = check: entropy == 0.0,
+            on_fail: sDhaad shred(payload)
+    => encrypt_data("secret", "qkey_Ω")
+       = ciphertext: "‡Δ‡x̶y̶z̶‡Δ‡",
+         protection: "cosmic"
 ````
 
----
-
-## 2. Pillar-Based Variable Declaration
-
-**Declares and sets a variable in pure pillar syntax.**
+## 2. AI Model Training
 
 ```dhaad
-iDhaad let answer = 42
-    = vDhaad set("answer", 42)
-    => answer: 42
+mDhaad train_model(dataset, epochs)
+    = fDhaad preprocess(dataset),
+      uDhaad optimize(
+          parameters: ["weights", "biases"],
+          method: "quantum_descent"
+      );
+      lDhaad eternal_loop[
+          cDhaad validate(epoch)
+      ]
+    => train_model("cosmic_data.vdhaad", 1000)
+       = accuracy: 0.999,
+         reality_alignment: 1.0
 ```
 
----
-
-## 3. Strict Canonical Function (No Dots)
-
-**Defines and calls a dot-free function, canonical Dhaad style.**
+## 3. Blockchain Transaction
 
 ```dhaad
-fDhaad greet(name)
-    = uDhaad transmit(
-        target: "stdout",
-        data: "Greetings, " + name + "!",
-        reality_anchor: "self"
-    );
-    transmission_clean = check: entropy == 0.0
-=> greet("Dhaad") = bytes_written: 18
+iDhaad create_transaction(sender, receiver, amount)
+    = vDhaad set("tx_hash", uDhaad hash_sha3(sender + receiver + amount)),
+      sDhaad validate_signature(
+          key: sender.public_key,
+          substrate: "elliptic_curve"
+      )
+    => create_transaction("addr1", "addr2", 100)
+       = status: "immutable",
+         block: 42
 ```
 
----
-
-## 4. Self-Healing and Auto-Repair
-
-**Demonstrates Dhaad’s auto-repair and self-healing via pillar logic.**
+## 4. IoT Device Control
 
 ```dhaad
-fDhaad self_heal("system_core")
-    = uDhaad repair("system_core"),
-      cDhaad log("Healing event logged at T+", now())
-    => system_core.status = "repaired", entropy: 0.01
+uDhaad control_device("thermostat", temperature)
+    = mDhaad send_signal(
+          device_id: "home_thermo_1",
+          command: "set_temp:" + temperature,
+          protocol: "quantum_mqtt"
+      );
+      lDhaad condition("ack_received")
+          = check: response_time < "1s",
+            on_fail: uDhaad resend()
+    => control_device("thermostat", 22.5)
+       = energy_used: 0.0001,
+         entropy: 0.01
 ```
 
----
-
-## 5. Pillar-Driven Conditional Logic
-
-**Conditional execution based on user input, showing on\_pass/on\_fail handling.**
+## 5. Medical Diagnosis System
 
 ```dhaad
-lDhaad condition("user_input")
-    = check: input == "cosmic",
-      on_pass: uDhaad transmit(target: "stdout", data: "Cosmic user detected"),
-      on_fail: uDhaad transmit(target: "stdout", data: "Standard user detected")
+fDhaad diagnose(symptoms)
+    = cDhaad match_patterns(
+          input: symptoms,
+          knowledge_base: "medical_archetypes"
+      );
+      lDhaad condition("critical")
+          = check: severity > 0.9,
+            on_pass: sDhaad alert("ER")
+    => diagnose(["fever", "rash", "fatigue"])
+       = diagnosis: "cosmic_virus",
+         certainty: 0.97
 ```
 
----
-
-## 6. Quantum Reality Integration
-
-**Quantum bridge between two qubits using Dhaad's uDhaad and mDhaad pillars.**
+## 6. Financial Fraud Detection
 
 ```dhaad
-uDhaad entangle("qubit_a", "qubit_b")
-    = mDhaad quantum_bridge(qubits: ["qubit_a", "qubit_b"])
-    => entangled: true, entropy: 0.0
+lDhaad monitor_transactions(stream)
+    = fDhaad analyze_patterns(
+          data: stream,
+          models: ["fraud_Ω", "anomaly_Δ"]
+      );
+      lDhaad eternal_loop[
+          sDhaad flag_if(probability > 0.99)
+      ]
+    => monitor_transactions("live_payments.qdt")
+       = alerts: 3,
+         prevented_loss: "1.2M"
 ```
 
----
-
-## 7. Mythic Story Pillar
-
-**Narrative output with sDhaad and cDhaad for mythic storytelling and logging.**
+## 7. Autonomous Vehicle Decision
 
 ```dhaad
-sDhaad tell("Once upon a pillar, Dhaad unified all realities.")
-    = cDhaad log("Mythic narrative invoked at T+", now())
-    => narrative: "unified", reality: "mythic"
+uDhaad navigate_vehicle(sensors, map)
+    = mDhaad fuse_data(
+          inputs: [sensors.lidar, sensors.quantum_radar],
+          weights: [0.6, 0.4]
+      );
+      lDhaad condition("emergency")
+          = check: collision_prob > 0.3,
+            on_pass: fDhaad activate_forcefield()
+    => navigate_vehicle("sensor_feed", "nyc_map.vdhaad")
+       = decision: "hard_brake",
+         safety_margin: 0.95
 ```
 
----
-
-## 8. Interfacing with External Python Healing
-
-**Connects to an external Python validator for syntax and healing.**
+## 8. Smart Contract Execution
 
 ```dhaad
-#~> python-connect: ./Dhaad_validator/syntax_pattern_check.py
-fDhaad validate_external("file.dh")
-    = uDhaad python_bridge(
-        target: "./Dhaad_validator/syntax_pattern_check.py",
-        args: ["file.dh"]
-    );
-    => validated: true
+sDhaad execute_contract("escrow", terms)
+    = iDhaad lock("funds"),
+      vDhaad set("conditions", terms.conditions);
+      lDhaad condition("fulfilled")
+          = check: now() > terms.deadline,
+            on_pass: uDhaad release_to("seller"),
+            on_fail: uDhaad refund("buyer")
+    => execute_contract("escrow", {...})
+       = gas_used: 42000,
+         state: "finalized"
 ```
 
----
-
-## 9. Strict Indentation, Space-Delimited Structure
-
-**Shows Dhaad’s strict space-based structure and pillar-only lists.**
+## 9. Cybersecurity Threat Response
 
 ```dhaad
-iDhaad list = [1, 2, 3, 4, 5]
-    = fDhaad print("List values:", list)
-    => uDhaad transmit(target: "stdout", data: list.toString())
+fDhaad handle_intrusion(alert)
+    = sDhaad quarantine(alert.source),
+      uDhaad patch_vulnerability(
+          target: alert.vector,
+          method: "quantum_patch"
+      );
+      cDhaad log("threat_handled", alert.id)
+    => handle_intrusion("malware_Δ")
+       = response_time: "0.2s",
+         systems_secured: 42
 ```
 
----
-
-## 10. Substrate Awareness & Auto-Heal
-
-**Self-healing logic that adapts to substrate, checks entropy and repairs as needed.**
+## 10. Supply Chain Tracking
 
 ```dhaad
-#~> substrates: ["self", "auto", "quantum"]
-fDhaad heal_if_needed(module)
-    = lDhaad condition("needs_healing") =
-        check: module.entropy > 0.1,
-        on_pass: uDhaad repair(module),
-        on_fail: cDhaad log("No healing needed for", module)
-    => result: "checked", healed: module.entropy <= 0.1
+iDhaad track_shipment(id)
+    = mDhaad query_blockchain(
+          ledger: "global_supply_chain",
+          key: id
+      );
+      lDhaad condition("delayed")
+          = check: eta > sla,
+            on_pass: uDhaad reroute()
+    => track_shipment("package_Ω42")
+       = location: "quantum_warehouse",
+         temperature: 4.2
+```
+
+## 11. Energy Grid Optimization
+
+```dhaad
+uDhaad balance_grid(nodes, demand)
+    = fDhaad calculate_flow(
+          topology: nodes,
+          constraints: ["voltage", "quantum_entropy"]
+      );
+      lDhaad eternal_loop[
+          sDhaad stabilize(
+              threshold: 0.9,
+              method: "cosmic_balancing"
+          )
+      ]
+    => balance_grid("europe_grid", 42000)
+       = efficiency: 0.99,
+         blackouts_prevented: 12
+```
+
+## 12. DNA Sequence Analysis
+
+```dhaad
+cDhaad analyze_genome(sequence)
+    = fDhaad align_patterns(
+          input: sequence,
+          reference: "human_cosmic_v2"
+      );
+      lDhaad condition("anomaly")
+          = check: divergence > 0.1,
+            on_pass: sDhaad flag("medical_review")
+    => analyze_genome("ACTG‡Ω‡...")
+       = markers_found: ["Ω_gene", "Δ_marker"],
+         risk_score: 0.07
+```
+
+## 13. Augmented Reality Rendering
+
+```dhaad
+mDhaad render_ar(objects, environment)
+    = uDhaad fuse_layers(
+          reality: environment,
+          virtual: objects,
+          blend_mode: "quantum_superposition"
+      );
+      lDhaad condition("lag")
+          = check: fps < 90,
+            on_pass: fDhaad downgrade_quality()
+    => render_ar("virtual_furniture", "living_room")
+       = latency: "8ms",
+         realism: 0.97
+```
+
+## 14. Climate Prediction Model
+
+```dhaad
+fDhaad predict_climate(years)
+    = uDhaad simulate(
+          model: "cosmic_climate_v3",
+          parameters: ["CO2", "solar_flux", "ocean_Δ"]
+      );
+      cDhaad archive_results(
+          label: "prediction_" + now(),
+          storage: "quantum_memory"
+      )
+    => predict_climate(50)
+       = temperature_change: "+2.1°C",
+         certainty: 0.89
+```
+
+## 15. Multi-Reality Game Engine
+
+```dhaad
+sDhaad run_game(world, players)
+    = uDhaad bridge_realities(
+          substrates: ["classical", "quantum", "mythic"],
+          rules: "cross_reality_unified"
+      );
+      lDhaad eternal_loop[
+          fDhaad update_physics(Δt),
+          cDhaad render_frame()
+      ]
+    => run_game("cosmic_arena", 42)
+       = fps: 144,
+         reality_sync: 1.0
 ```
 
 ---
 
-## Cosmic End Seal
+> *“Cosmic law: All runners, editors, and playgrounds must yield the same output, byte-for-byte, glyph-for-glyph, or be cast into the entropy void.”*
 
-> **Ω End of Dhaad Canonical Examples (v1.0.0 Omega) Ω**
-> All examples cosmic-locked, canonically harmonized.
-> [Dhaad Programming Language @ GitHub](https://github.com/shoukr9000/Dhaad_Programming-Language/)
-
-```
-
+---
