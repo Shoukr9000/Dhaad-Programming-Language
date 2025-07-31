@@ -1,4 +1,4 @@
-title: Dhaad Canonical Examples – Pillar Gallery (v1.0 Ω)
+Dhaad Canonical Examples – Pillar Gallery (v1.0 Ω)
 version: 1.0.0 Omega
 author: Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)
 license: All rights reserved © 2024 – Dhaad Programming Language
