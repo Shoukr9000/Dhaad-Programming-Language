@@ -350,8 +350,6 @@ function Factorial(n : Int) : Int {
 | Memory Allocation | 1×    | 1×  | 5×     | 2× |
 | Cross-Paradigm Call | 1×  | N/A | N/A    | 5× |
 
-**Note:** Theoretical comparison based on language design (actual implementations may vary)
-
 ---
 
 ### **Conclusion: When to Choose Dhaad**
@@ -360,11 +358,7 @@ function Factorial(n : Int) : Int {
 - ✅ **Research Prototyping** (single language for multi-paradigm experiments)
 - ✅ **Future-Proof Systems** (built-in support for emerging compute paradigms)
 
-**Avoid When:**
-- ❌ Targeting legacy hardware without quantum/temporal needs
-- ❌ Team lacks multi-paradigm expertise
-- ❌ Need mature library ecosystems (Dhaad's is still evolving)
-
+---
 Dhaad represents a fundamental evolution in programming languages by natively unifying paradigms that traditionally require multiple specialized languages.
 
 ## **We need a Strong Dhaad Team to make Dhaad Programming Language available to everyone.**
