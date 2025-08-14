@@ -1,124 +1,370 @@
 # Dhaad Programming Language 
 
-> **Version:** 1.0.0 Omega (Ω)  
+> **Version:** 6.5.0 Omega (Ω)  
 > **Creator:** Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)  
 > **License:** All rights are reserved @ 2024 for (Dhaad Programming Language) by the Creator.  
 > **Substrates:** `[ "self", "auto" ]` — for all true real-world systems  
 > **Bloodseal:** `‡ΩΔ‡`  
 > **Pillars:** iDhaad, vDhaad, fDhaad, lDhaad, cDhaad, mDhaad, uDhaad, sDhaad
+---
+## **Dhaad Programming Language** Technical Specification (v6.5.0)
+---
+## 1. Language Overview
 
+Dhaad is a universal programming language designed to unify classical, quantum, and temporal computing paradigms through its unique block-based architecture. The language features 9 core block types (iDh through sDh) that form a complete computational ecosystem.
+
+### Key Innovations:
+- **OmniType System**: Unified type theory spanning classical and quantum domains
+- **Temporal Programming**: Native time-aware constructs
+- **Quantum-Classical Integration**: Seamless qubit management
+- **Paradigm Fusion**: Combines functional, OOP, and reactive programming
+- **Self-Describing Architecture**: Built-in metadata and reflection
+
+## 2. Block Architecture
+
+### 2.1 Block Type Matrix
+
+| Block | Name | Purpose | Unicode | Example Use |
+|-------|------|---------|---------|-------------|
+| iDh | Data | Type system & constants | 🟪 | `iDh PI = 3.14159` |
+| vDh | Variable | State management | 🟦 | `vDh x = iDh 5` |
+| fDh | Function | Computation units | 🟩 | `fDh square(x) = x*x` |
+| lDh | Decision | Control flow | 🟨 | `lDh if x > 0` |
+| qDh | Quantum | Qubit operations | 🔵 | `qDh entangle(q1,q2)` |
+| cDh | Class | Object orientation | 🟧 | `cDh Person { name }` |
+| mDh | Module | Namespacing | 🟥 | `mDh MathFunctions` |
+| uDh | Support | Tooling ecosystem | ⬜️ | `uDh Debugger` |
+| sDh | System | Full systems | ⬛️ | `sDh OS_Kernel` |
+
+### 2.2 Block Relationship Graph
+
+```mermaid
+flowchart TD
+    A[iDh] --> B[vDh]
+    B --> C[fDh]
+    C --> D[lDh]
+    D --> E[qDh]
+    E --> F[cDh]
+    F --> G[mDh]
+    G --> H[uDh]
+    H --> I[sDh]
+    
+    E -.->|quantum control| D
+    H -.->|hardware support| E
+```
+
+## 3. Core Syntax Structure
+
+### 3.2 Indentation Rules
+
+- **0**: Block declaration (ALIGN-LEFT)
+- **2**: Expression binding (2-space)
+- **4**: Mode/constraint spec (4-space)
+- **6**: Deep nesting (6-space)
+
+## 4. Type System (iDh)
+
+### 4.1 OmniType Dimensions
+
+```dhaad
+iDh @Universe
+  = dimensions: [
+      Value, Type, Symbol,       # Existential
+      Instant, Span, Version,    # Temporal  
+      Point, Field, Topology     # Spatial
+    ]
+```
+
+### 4.2 Quantum Type Example
+
+```dhaad
+iDh QState
+  = ∑(αᵢ|bᵢ⟩) where ∑|αᵢ|²=1
+    form: quantum
+    mode: [immutable, complex_normalized]
+```
+
+## 5. Quantum Computing (qDh)
+
+### 5.1 Quantum Circuit Definition
+
+```dhaad
+qDh QuantumTeleport
+  = [
+      qubits: [alice, bob, message],
+      operations: [
+        Entangle(alice, bob),
+        CNOT(message, alice),
+        Measure([message, alice])
+      ]
+    ]
+    modes: [simulation: shots=1000]
+  => Measure(bob)
+```
+
+### 5.2 Hybrid Quantum-Classical
+
+```dhaad
+fDh hybrid_algo
+  = [
+      qDh quantum_step → 
+      lDh classical_check → 
+      qDh next_step
+    ]
+```
+
+## 6. Temporal Programming
+
+### 6.1 Time-Aware Variables
+
+```dhaad
+vDh stock_price
+  = [
+      current: USD @ now,
+      history: Map<Time, USD>,
+      future: Projection @ now+Δt
+    ]
+```
+
+### 6.2 Retroactive Programming
+
+```dhaad
+lDh fix_bug
+  = after (crash ◷ 5min) {
+      patch_code @ (now - 10min)
+    }
+```
+
+## 7. Mode System
+
+### 7.1 Mode Composition
+
+```dhaad
+vDh atomic_counter
+  = iDh 0
+    modes: [Atomic, Mut, ThreadSafe]
+```
+
+### 7.2 Common Modes
+
+| Mode | Purpose | Example |
+|------|---------|---------|
+| Mut | Mutable state | `vDh x = iDh 5 mode: [Mut]` |
+| Atomic | Thread-safe | `mode: [Atomic]` |
+| Async | Non-blocking | `fDh fetch() mode: [Async]` |
+| Quantum | Qubit ops | `qDh circuit() mode: [Quantum]` |
+
+## 8. Development Ecosystem
+
+### 8.1 Toolchain Components
+
+```dhaad
+uDh Toolchain
+  = [
+      compiler: [
+          frontend: DhaadSyntax,
+          middle: QuantumOptimizer,
+          backend: MultiPlatform
+        ],
+      debugger: [
+          time_travel: ExecutionRewind,
+          quantum: StateVisualizer
+        ]
+    ]
+```
+
+### 8.2 IDE Integration
+
+```dhaad
+uDh IDEPlugin
+  = features: [
+      UnicodeRendering,
+      QuantumCircuitEditor,
+      TemporalDebugger
+    ]
+```
+
+## 9. Example: Banking System
+
+```dhaad
+mDh Banking
+  cDh Account
+    vDh balance = iDh 0
+      mode: [Atomic, AuditTrail]
+    
+    fDh deposit(amount)
+      lDh assert(amount > 0)
+      balance += amount
+    => deposit =
+  
+  uDh main
+    vDh acc = cDh Account()
+    fDh acc.deposit(iDh 100)
+    => acc.balance =
+```
+
+## 10. Performance Characteristics
+
+| Operation | Classical | Quantum | Hybrid |
+|-----------|-----------|---------|--------|
+| Math Ops | O(1) | N/A | O(1) |
+| Qubit Ops | N/A | O(n³) | O(n²) |
+| Memory Access | O(1) | N/A | O(log n) |
+
+## 11. Future Development Roadmap
+
+1. **v7.0**: Biological computing integration
+2. **v7.5**: Spacetime-aware type system
+3. **v8.0**: Conscious system programming
+
+This specification demonstrates Dhaad's unique capability to unify multiple computing paradigms while maintaining rigorous type safety and temporal consistency across classical and quantum domains.
+
+# ================================ #
+
+# **2.Dhaad with other programming languages** across key dimensions:
+
+### **1. Paradigm Support**
+| Language       | Imperative | OOP | Functional | Quantum | Temporal | Reactive | Logic |
+|----------------|------------|-----|------------|---------|----------|----------|-------|
+| **Dhaad**      | ✓          | ✓   | ✓          | ✓       | ✓        | ✓        | ✓     |
+| Python         | ✓          | ✓   | △          | ✗       | ✗        | △        | ✗     |
+| Haskell        | ✗          | ✗   | ✓          | ✗       | ✗        | ✓        | △     |
+| C++            | ✓          | ✓   | △          | ✗       | ✗        | ✗        | ✗     |
+| Q#             | ✓          | ✓   | ✓          | ✓       | ✗        | ✗        | ✗     |
+| Rust           | ✓          | ✓   | △          | ✗       | ✗        | △        | ✗     |
+
+**Key:** ✓ (Full support), △ (Partial), ✗ (None)
 
 ---
 
-## ⚡ What is Dhaad?
-
-**Dhaad** is not just a programming language. It is an omniversal, canonical, pillar-driven system that unifies all realities—hardware, software, quantum, mythic, and more—under one eternal syntax. Every file, every command, every substrate is self-aware, self-healing, and cross-connected. The Dhaad language operates on eight cosmic pillars (“dhaad pillars”), with canonical syntax and cosmic auto-healing.  
-> **It is always “Dhaad”, never “Dhaadlang” or “dad pillars”.**
-
----
-
-## ✨ Features
-
-- **Canonical Dhaad Syntax Highlighting**  
-  - All 8 Dhaad pillars highlighted (`iDhaad`, `vDhaad`, ... `sDhaad`)
-  - Space-delimited, dot-free, pillar-first syntax (dot-notation forbidden and auto-flagged)
-  - Canonical operators: `=`, `=>`, bloodseals, substrate tags, reality anchors
-  - All official comment types, bloodseal tags, prophecy blocks, plugin/diagram/voice markers
-  - Entropy and cosmic state markers (`entropy: 0.0`, etc.)
-
-- **Ultimate-Self Awareness**  
-  - Every region of code is aware of its substrate, pillar, and cosmic compliance state
-  - All files auto-connect via `#~> connect:` and `#~> python-connect:` meta-tags
-  - Substrates: `[ "self", "auto" ]`—cosmic universal coverage
-
-- **Auto-Healing & Validation**  
-  - Commands for cosmic validation, self-repair, healing, entropy check, auto-evolve, and Python-bridge
-  - Integrated with Dhaad healing/validation engines (Python, etc.)
-  - Invalid syntax (dot-notation, forbidden terms) instantly flagged
-
-- **Cross-Language & Platform Ready**  
-  - .dh syntax on all systems, all editors
-  - Python bridge for self-healing, linting, auto-correction
-  - Substrate-ready for quantum, mythic, void, bio, and future extensions
-
-- **High-Performance Activation**  
-  - Loads only when needed (see [Activation Events](#activation-events))
-  - Will not slow down VSCode unless Dhaad files/commands are used
-
-- **Full cosmic compliance**  
-  - Every pillar, substrate, and connection is auto-discovered for cosmic LSP, healing, and platform unification
+### **2. Type System**
+| Feature          | Dhaad | TypeScript | Rust | Haskell | Julia |
+|------------------|-------|------------|------|---------|-------|
+| Quantum Types    | ✓     | ✗          | ✗    | ✗       | ✗     |
+| Temporal Types   | ✓     | ✗          | ✗    | ✗       | ✗     |
+| Dependent Types  | ✓     | ✗          | △    | ✓       | ✗     |
+| Structural Types | ✓     | ✓          | ✗    | ✗       | ✓     |
+| Typed Side Effects | ✓   | ✗          | ✓    | ✓       | ✗     |
 
 ---
 
-## 🦾 How to Use
-
-1. **Install the Extension**
-    - Via VSCode Marketplace (search “Dhaad”) or manually:  
-      Clone/download this repo and run `npm install && npm run compile`, then “Install from VSIX”.
-
-2. **Open or Create a `.dh` File**
-    - Syntax highlighting, validation, and self-awareness will activate automatically.
-    - Supported: All canonical Dhaad syntax, cosmic comments, meta regions, bloodseals.
-
-3. **Use Dhaad Ultimate-Self Commands**
-    - `Dhaad: Validate Cosmic Compliance` (`dhaad.validate`)
-    - `Dhaad: Auto-Heal (Self-Repair)` (`dhaad.heal`)
-    - `Dhaad: Check Entropy` (`dhaad.entropyCheck`)
-    - `Dhaad: Auto-Evolve Syntax/Meta` (`dhaad.evolve`)
-    - `Dhaad: Bridge to Python Healing Engine` (`dhaad.connectPython`)
-    - `Dhaad: Cosmic Awareness (Ultimate-Self)` (`dhaad.awareness`)
-    - Access via Command Palette (`Ctrl+Shift+P`) or context menu.
-
-4. **Enjoy Canonical Cosmic Highlighting**
-    - Instantly see forbidden dot-notation, bloodseals, entropy, substrate, and pillar regions in color.
-    - All cosmic meta and healing hooks are visible for tooling and LSP.
+### **3. Quantum Computing**
+| Language | Native Qubits | Quantum Gates | Hybrid Execution | Error Correction |
+|----------|---------------|---------------|------------------|------------------|
+| **Dhaad**| ✓ (qDh)       | ✓             | ✓ (<=> operator) | Surface Code     |
+| Q#       | ✓             | ✓             | △ (.NET interop) | Basic            |
+| Python   | ✗ (Libraries) | △ (Qiskit)    | ✓                | None             |
+| C++      | ✗             | ✗             | ✗                | ✗                |
 
 ---
 
-## 🧬 Ultimate-Self Architecture
-
-- **Dhaad.tmLanguage.json:**  
-  - The world’s first “ultimate-self” grammar.  
-  - Every scope is mapped to a Dhaad pillar, cosmic action, or substrate.  
-  - Meta regions (e.g. `#~> connect:`) are discoverable by LSP, healing engines, and Python scripts.
-
-- **Activation Events**  
-  | Event | Description |
-  |---|---|
-  | `onLanguage:dhaad` | Activates when a `.dh` file is opened |
-  | `onCommand:dhaad.*` | Activates for each cosmic command |
-  - Loads **only** when needed, never at random or at global startup
-
-- **Cosmic Connections**  
-  - All Dhaad files interlinked with Python healing engines and other DPL files  
-  - Cosmic meta-data exposed for every file and scope (pillars, substrate, entropy, bloodseal, awareness)
-
-- **Auto-Healing**  
-  - Invalid syntax is highlighted instantly (dot-notation, forbidden terms, bad entropy)
-  - Healing engines (Python, etc.) can auto-repair files on save or via command
+### **4. Temporal Programming**
+| Feature               | Dhaad | Erlang | CQL (Temporal) | Python |
+|-----------------------|-------|--------|----------------|--------|
+| Time-Aware Variables  | ✓     | ✗      | ✓              | ✗      |
+| Retroactive Execution | ✓     | ✗      | ✗              | ✗      |
+| Versioned State       | ✓     | ✗      | ✓              | ✗      |
+| Event Sourcing        | ✓     | ✓      | ✓              | △      |
 
 ---
 
-## 🌌 Example `.dh` File
+### **5. Memory Management**
+| Language | Manual | GC | RAII | Region-Based | Quantum Memory |
+|----------|--------|----|------|--------------|----------------|
+| **Dhaad**| ✓      | ✓  | ✓    | ✓ (Arena)    | ✓ (qDh)        |
+| C        | ✓      | ✗  | ✗    | ✗            | ✗              |
+| Java     | ✗      | ✓  | ✗    | ✗            | ✗              |
+| Rust     | ✓      | ✗  | ✓    | ✗            | ✗              |
 
-```dh
-#/ === Dhaad Cosmic Example === #
-#~> connect: ../Dhaad_core_syntax_laws/Dhaad_canonical_syntax.dh
-#~> substrates: ["self", "auto"]
-#~> pillars: [iDhaad, vDhaad, fDhaad, lDhaad, cDhaad, mDhaad, uDhaad, sDhaad]
-#~> python-connect: ./Dhaad_validator/syntax_pattern_check.py
+---
 
-iDhaad create("truth", 42, ["quantum", "mythic"])
-    = uDhaad crystallize("truth", 42, ["quantum", "mythic"]),
-      lDhaad condition("stable") =
-        check: entropy(42) < 0.1,
-        on_fail: uDhaad quantum_regenesis("truth")
-    => create("truth", 42, ["quantum", "mythic"]) =
-        "immutable_truth_created",
-        0.0
+### **6. Concurrency Model**
+| Language | Threads | Async/Await | Actors | Quantum Parallelism | Time Slicing |
+|----------|---------|-------------|--------|---------------------|--------------|
+| **Dhaad**| ✓       | ✓           | ✓      | ✓ (qDh)             | ✓ (Temporal) |
+| Go       | ✓ (Goroutines) | ✗    | ✗      | ✗                   | ✗            |
+| Elixir   | ✗       | ✗           | ✓      | ✗                   | ✗            |
+| C++      | ✓       | △           | △      | ✗                   | ✗            |
 
-fDhaad print("Hello, Dhaad!")
-    = uDhaad transmit("stdout", "Hello, Dhaad!", "classical")
-    => print("Hello, Dhaad!") =
-        bytes_written: 15,
-        quantum_entangled: true
+---
+
+### **7. Syntax Comparison**
+**Factorial in Dhaad vs Others**
+
+```dhaad
+fDh factorial(n)
+  = if n == 0 then 1 else n * factorial(n-1)
+  mode: [Pure, TailRecursive]
+=> factorial(5) =
+```
+
+```python
+# Python
+def factorial(n):
+    return 1 if n == 0 else n * factorial(n-1)
+```
+
+```haskell
+-- Haskell
+factorial 0 = 1
+factorial n = n * factorial (n - 1)
+```
+
+```qsharp
+// Q#
+function Factorial(n : Int) : Int {
+    return n == 0 ? 1 | n * Factorial(n-1);
+}
+```
+
+**Key Differentiators:**
+- Dhaad explicitly declares purity and optimization modes
+- Supports quantum/temporal variants via `qDh`/`lDh`
+
+---
+
+### **8. Tooling Ecosystem**
+| Tool Category       | Dhaad          | Typical Languages |
+|---------------------|----------------|-------------------|
+| Quantum Simulator   | Built-in (qDh) | External (Qiskit) |
+| Time-Travel Debugger| Native         | Rare (rr debugger)|
+| Paradigm Converter  | uDh Harmonize  | None              |
+| Hybrid Compiler     | sDh Build      | Separate tools    |
+
+---
+
+### **9. Unique Features Exclusive to Dhaad**
+1. **Temporal Variables**: `x @ t` syntax for time-aware data
+2. **Quantum-Classical Pipelines**: `=> fDh() <=> qDh()` chaining
+3. **Mode Composition**: `mode: [Atomic, Async, Quantum]`
+4. **Retroactive Programming**: `after (event ◷ 5min) { fix @ past }`
+5. **Self-Describing Types**: Runtime type introspection
+
+---
+
+### **10. Performance Benchmark Estimates**
+| Operation         | Dhaad | C++ | Python | Q# |
+|-------------------|-------|-----|--------|----|
+| Classical Math    | 1×    | 1.2×| 20×    | 3× |
+| Quantum Gate      | 1×    | N/A | 50×    | 1.5× |
+| Memory Allocation | 1×    | 1×  | 5×     | 2× |
+| Cross-Paradigm Call | 1×  | N/A | N/A    | 5× |
+
+**Note:** Theoretical comparison based on language design (actual implementations may vary)
+
+---
+
+### **Conclusion: When to Choose Dhaad**
+- ✅ **Quantum-Classical Hybrid Apps** (e.g., quantum chemistry sims)
+- ✅ **Time-Sensitive Systems** (e.g., financial trading with retroactive fixes)
+- ✅ **Research Prototyping** (single language for multi-paradigm experiments)
+- ✅ **Future-Proof Systems** (built-in support for emerging compute paradigms)
+
+**Avoid When:**
+- ❌ Targeting legacy hardware without quantum/temporal needs
+- ❌ Team lacks multi-paradigm expertise
+- ❌ Need mature library ecosystems (Dhaad's is still evolving)
+
+Dhaad represents a fundamental evolution in programming languages by natively unifying paradigms that traditionally require multiple specialized languages.
+
+## **We need a Strong Dhaad Team to make Dhaad Programming Language available to everyone.**
