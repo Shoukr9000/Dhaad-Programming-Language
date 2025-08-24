@@ -30,8 +30,8 @@ Dhaad is a universal programming language designed to unify classical, quantum, 
 | **dDh**<br>(Data)      | "eye-dee"    |       🟪       |  DhaadType (Unified all Data & DataFrame & Constants & Symbols) |
 | **vDh**<br>(Variable)  | "vee-dee"    |       🟦       |  DhaadVar (unified all Variables & Operators) |
 | **fDh**<br>(Function)  | "eff-dee"    |       🟩       |  DhaadFunc (unified all Pure and impure Functions) |
-| **qDh**<br>(Quantum)   | "quu-dee"    |       🟣       |  DhaadQunt (unified all quantum functions & tools, ...etc) |
-| **wDh**<br>(Web)       | "dbu-dee"    |       🟠       |  DhaadWeb (unified all web functions & protocols, ...etc) |
+| **qDh**<br>(Quantum)   | "cue-dee"    |       🟣       |  DhaadQunt (unified all quantum functions & tools, ...etc) |
+| **wDh**<br>(Web)       | "dub-dee"    |       🟠       |  DhaadWeb (unified all web functions & protocols, ...etc) |
 | **lDh**<br>(Decision)  | "ell-dee"    |       🟨       |  DhaadDeci (unified all Loops & Logic & Conditionals & Behaviors & Events & Times & Perceptions) |
 | **cDh**<br>(Class)     | "see-dee"    |       🟧       |  DhaadClass (Unified all Classes & OOP & Inheritance ) |
 | **mDh**<br>(Module)    | "em-dee"     |       🟥       |  DhaadMod (Unified all Modules & Namespace & Packages & Pip & Npm & Cabal & Opam) |
@@ -39,9 +39,11 @@ Dhaad is a universal programming language designed to unify classical, quantum, 
 | **sDh**<br>(System)    | "ess-dee"    |       ⬛️       |  DhaadSys (Unified all types of systems & prototypes & Models) |
 
 
-improve the relations between blocks:
+***
 
 ### 2.2 Block Relationship Graph
+
+```mermaid
 flowchart TD
     A[dDh<br>Data Types 🟪]
     B[vDh<br>Variables 🟦]
@@ -78,8 +80,9 @@ flowchart TD
     I -.-> J
     J -.-> I
     J --> H
-    ---
----
+```
+
+***
 
 ## 3. Core Syntax Structure
 
