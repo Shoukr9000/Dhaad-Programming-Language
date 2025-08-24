@@ -42,10 +42,7 @@ Dhaad is a universal programming language designed to unify classical, quantum, 
 improve the relations between blocks:
 
 ### 2.2 Block Relationship Graph
-
-```mermaid
 flowchart TD
-    %% Define Nodes with Symbols
     A[dDh<br>Data Types 🟪]
     B[vDh<br>Variables 🟦]
     C[fDh<br>Functions 🟩]
@@ -57,35 +54,32 @@ flowchart TD
     I[uDh<br>Support ⬜️]
     J[sDh<br>System ⬛️]
 
-    %% Core Data Flow (The "Spine")
-    A -- constructs --> B
-    B -- operates on --> C
-    C -- controls --> D
-    D -- manages flow --> J
+    %% Core Conceptual Flow
+    A --> B
+    B --> C
+    C --> D
+    D --> J
 
     %% Specialized Domain Integration
-    C -- can call --> E
-    C -- can call --> F
-    D -- controls flow of --> E
-    D -- controls flow of --> F
-    E -- generates data --> A
-    F -- handles data --> A
+    C --> E
+    C --> F
+    D --> E
+    D --> F
+    E -.-> A
+    F -.-> A
 
-    %% Structural Organization
-    C -- are organized by --> G
-    G -- are organized by --> H
-    H -- provides interface to --> C
-
-    %% Foundational Support (The "Platform")
-    I -.->|provides tools for| E
-    I -.->|provides tools for| F
-    I -.->|configures & documents| H
-    I -.->|orchestrates| J
-    
-    J -.->|is built upon| I
-    
-    %% System encompasses everything
-    J -- is built from --> H
+    %% Structural Organization & Support
+    C --> G
+    G --> H
+    H --> C
+    I -.-> E
+    I -.-> F
+    I -.-> H
+    I -.-> J
+    J -.-> I
+    J --> H
+    ---
+---
 
 ## 3. Core Syntax Structure
 
