@@ -1,17 +1,17 @@
-# Dhaad Programming Language 
+# **Dhaad Programming Language** (v0.8.1 Omnega) 
 
-> **Version:** 6.5.0 Omega (Ω)  
+> **Version:** 0.8.1 Omega (Ω)  
 > **Creator:** Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)  
 > **License:** All rights are reserved @ 2024 for (Dhaad Programming Language) by the Creator.  
 > **Substrates:** `[ "self", "auto" ]` — for all true real-world systems  
 > **Bloodseal:** `‡ΩΔ‡`  
-> **Pillars:** iDhaad, vDhaad, fDhaad, lDhaad, cDhaad, mDhaad, uDhaad, sDhaad
+> **Blocks:** dDh, vDh, fDh, lDh, qDh, wDh, cDh, mDh, uDh, sDhaad
 ---
-## **Dhaad Programming Language** Technical Specification (v6.5.0)
+## **Dhaad Programming Language** Technical Specification (v0.8.1)
 ---
 ## 1. Language Overview
 
-Dhaad is a universal programming language designed to unify classical, quantum, and temporal computing paradigms through its unique block-based architecture. The language features 9 core block types (iDh through sDh) that form a complete computational ecosystem.
+Dhaad is a universal programming language designed to unify classical, quantum, and temporal computing paradigms through its unique block-based architecture. The language features 9 core block types (dDh through sDh) that form a complete computational ecosystem.
 
 ### Key Innovations:
 - **OmniType System**: Unified type theory spanning classical and quantum domains
@@ -24,34 +24,68 @@ Dhaad is a universal programming language designed to unify classical, quantum, 
 
 ### 2.1 Block Type Matrix
 
-| Block | Name | Purpose | Unicode | Example Use |
-|-------|------|---------|---------|-------------|
-| iDh | Data | Type system & constants | 🟪 | `iDh PI = 3.14159` |
-| vDh | Variable | State management | 🟦 | `vDh x = iDh 5` |
-| fDh | Function | Computation units | 🟩 | `fDh square(x) = x*x` |
-| lDh | Decision | Control flow | 🟨 | `lDh if x > 0` |
-| qDh | Quantum | Qubit operations | 🔵 | `qDh entangle(q1,q2)` |
-| cDh | Class | Object orientation | 🟧 | `cDh Person { name }` |
-| mDh | Module | Namespacing | 🟥 | `mDh MathFunctions` |
-| uDh | Support | Tooling ecosystem | ⬜️ | `uDh Debugger` |
-| sDh | System | Full systems | ⬛️ | `sDh OS_Kernel` |
+#### **Dhaad's Blocks Names**
+| **Block**              | Pronunciation | Unicode Symbol |                    Purpose                             |
+|------------------------|--------------|----------------|---------------------------------------------------------|
+| **dDh**<br>(Data)      | "eye-dee"    |       🟪       |  DhaadType (Unified all Data & DataFrame & Constants & Symbols) |
+| **vDh**<br>(Variable)  | "vee-dee"    |       🟦       |  DhaadVar (unified all Variables & Operators) |
+| **fDh**<br>(Function)  | "eff-dee"    |       🟩       |  DhaadFunc (unified all Pure and impure Functions) |
+| **qDh**<br>(Quantum)   | "quu-dee"    |       🟣       |  DhaadQunt (unified all quantum functions & tools, ...etc) |
+| **wDh**<br>(Web)       | "dbu-dee"    |       🟠       |  DhaadWeb (unified all web functions & protocols, ...etc) |
+| **lDh**<br>(Decision)  | "ell-dee"    |       🟨       |  DhaadDeci (unified all Loops & Logic & Conditionals & Behaviors & Events & Times & Perceptions) |
+| **cDh**<br>(Class)     | "see-dee"    |       🟧       |  DhaadClass (Unified all Classes & OOP & Inheritance ) |
+| **mDh**<br>(Module)    | "em-dee"     |       🟥       |  DhaadMod (Unified all Modules & Namespace & Packages & Pip & Npm & Cabal & Opam) |
+| **uDh**<br>(Support)   | "you-dee"    |       ⬜️       |  DhaadTools (Unified all programming and web Tools & Extensions/Add-ons & Runtime Enhancements & Configurations/Metadata & Documentations & Orchestrations/Harmonizations/integrations) |
+| **sDh**<br>(System)    | "ess-dee"    |       ⬛️       |  DhaadSys (Unified all types of systems & prototypes & Models) |
+
+
+improve the relations between blocks:
 
 ### 2.2 Block Relationship Graph
 
 ```mermaid
 flowchart TD
-    A[iDh] --> B[vDh]
-    B --> C[fDh]
-    C --> D[lDh]
-    D --> E[qDh]
-    E --> F[cDh]
-    F --> G[mDh]
-    G --> H[uDh]
-    H --> I[sDh]
+    %% Define Nodes with Symbols
+    A[dDh<br>Data Types 🟪]
+    B[vDh<br>Variables 🟦]
+    C[fDh<br>Functions 🟩]
+    D[lDh<br>Logic 🟨]
+    E[qDh<br>Quantum 🟣]
+    F[wDh<br>Web 🟠]
+    G[cDh<br>Classes 🟧]
+    H[mDh<br>Modules 🟥]
+    I[uDh<br>Support ⬜️]
+    J[sDh<br>System ⬛️]
+
+    %% Core Data Flow (The "Spine")
+    A -- constructs --> B
+    B -- operates on --> C
+    C -- controls --> D
+    D -- manages flow --> J
+
+    %% Specialized Domain Integration
+    C -- can call --> E
+    C -- can call --> F
+    D -- controls flow of --> E
+    D -- controls flow of --> F
+    E -- generates data --> A
+    F -- handles data --> A
+
+    %% Structural Organization
+    C -- are organized by --> G
+    G -- are organized by --> H
+    H -- provides interface to --> C
+
+    %% Foundational Support (The "Platform")
+    I -.->|provides tools for| E
+    I -.->|provides tools for| F
+    I -.->|configures & documents| H
+    I -.->|orchestrates| J
     
-    E -.->|quantum control| D
-    H -.->|hardware support| E
-```
+    J -.->|is built upon| I
+    
+    %% System encompasses everything
+    J -- is built from --> H
 
 ## 3. Core Syntax Structure
 
@@ -62,12 +96,12 @@ flowchart TD
 - **4**: Mode/constraint spec (4-space)
 - **6**: Deep nesting (6-space)
 
-## 4. Type System (iDh)
+## 4. Type System (dDh)
 
 ### 4.1 OmniType Dimensions
 
 ```dhaad
-iDh @Universe
+dDh @Universe
   = dimensions: [
       Value, Type, Symbol,       # Existential
       Instant, Span, Version,    # Temporal  
@@ -78,7 +112,7 @@ iDh @Universe
 ### 4.2 Quantum Type Example
 
 ```dhaad
-iDh QState
+dDh QState
   = ∑(αᵢ|bᵢ⟩) where ∑|αᵢ|²=1
     form: quantum
     mode: [immutable, complex_normalized]
@@ -141,7 +175,7 @@ lDh fix_bug
 
 ```dhaad
 vDh atomic_counter
-  = iDh 0
+  = dDh 0
     modes: [Atomic, Mut, ThreadSafe]
 ```
 
@@ -149,7 +183,7 @@ vDh atomic_counter
 
 | Mode | Purpose | Example |
 |------|---------|---------|
-| Mut | Mutable state | `vDh x = iDh 5 mode: [Mut]` |
+| Mut | Mutable state | `vDh x = dDh 5 mode: [Mut]` |
 | Atomic | Thread-safe | `mode: [Atomic]` |
 | Async | Non-blocking | `fDh fetch() mode: [Async]` |
 | Quantum | Qubit ops | `qDh circuit() mode: [Quantum]` |
@@ -189,7 +223,7 @@ uDh IDEPlugin
 ```dhaad
 mDh Banking
   cDh Account
-    vDh balance = iDh 0
+    vDh balance = dDh 0
       mode: [Atomic, AuditTrail]
     
     fDh deposit(amount)
@@ -199,7 +233,7 @@ mDh Banking
   
   uDh main
     vDh acc = cDh Account()
-    fDh acc.deposit(iDh 100)
+    fDh acc.deposit(dDh 100)
     => acc.balance =
 ```
 
@@ -213,9 +247,9 @@ mDh Banking
 
 ## 11. Future Development Roadmap
 
-1. **v7.0**: Biological computing integration
-2. **v7.5**: Spacetime-aware type system
-3. **v8.0**: Conscious system programming
+1. **v1.0**: Biological computing integration
+2. **v1.5**: Spacetime-aware type system
+3. **v2.0**: Conscious system programming
 
 This specification demonstrates Dhaad's unique capability to unify multiple computing paradigms while maintaining rigorous type safety and temporal consistency across classical and quantum domains.
 
