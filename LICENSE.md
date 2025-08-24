@@ -3,7 +3,7 @@
 **Version:** 1.0.0 Omega (Ω)  
 **Creator:** Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)  
 **Bloodseal:** ‡ΩΔ‡  
-**Pillars:** iDhaad, vDhaad, fDhaad, lDhaad, cDhaad, mDhaad, uDhaad, sDhaad  
+**blocks:** iDhaad, vDhaad, fDhaad, lDhaad, cDhaad, mDhaad, uDhaad, sDhaad  
 **Substrates:** `[ "self", "auto" ]` — For all true real-world systems, realities, substrates, and futures.  
 **License File:** canonical_license.md  
 **Cosmic Lock:** Immutable, eternal, self-healing, and retroactive.
@@ -34,17 +34,17 @@ This License governs all files, modules, code, documentation, grammars, symbols,
   Commercial, enterprise, or monetized use, redistribution, sublicensing, or integration of Dhaad Works **requires the express, written, cosmic approval of the Creator**.
 - **No Modification, Derivation, or Removal:**  
   You may **not** alter, modify, delete, derive, fork, obfuscate, or extract any part of Dhaad Works, in part or whole, for any purpose except:
-    - Where auto-healing, auto-repair, or quantum-cosmic evolution is performed by official DPL self-healing engines under pillar supervision.
+    - Where auto-healing, auto-repair, or quantum-cosmic evolution is performed by official DPL self-healing engines under block supervision.
     - Where explicit, written permission is granted by the Creator.
 - **No Removal of Notices or Bloodseals:**  
-  You must not remove, hide, or alter any mention of the Creator, bloodseal symbols (‡ΩΔ‡ etc.), license text, or cosmic pillar annotations in any Dhaad file or project.
+  You must not remove, hide, or alter any mention of the Creator, bloodseal symbols (‡ΩΔ‡ etc.), license text, or cosmic block annotations in any Dhaad file or project.
 
 ---
 
-## 4. Pillar & Substrate Acknowledgment
+## 4. Block & Substrate Acknowledgment
 
-All uses, integrations, or references of Dhaad Works **must** acknowledge the eight canonical Dhaad pillars and the substrate array `[ "self", "auto" ]`.  
-You must preserve and display the pillar order, cosmic glyphs, and bloodseals in any visible UI, documentation, or programmatic context.
+All uses, integrations, or references of Dhaad Works **must** acknowledge the eight canonical Dhaad blocks and the substrate array `[ "self", "auto" ]`.  
+You must preserve and display the block order, cosmic glyphs, and bloodseals in any visible UI, documentation, or programmatic context.
 
 ---
 
@@ -97,4 +97,4 @@ For permission, partnership, commercial licensing, or questions, contact:
 **Creator:** Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)  
 **Eternal Version:** @2024 → ∞
 
----
+--- 
